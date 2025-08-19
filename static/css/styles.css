@@ -1,0 +1,66 @@
+/* --------------------------- General styles --------------------------- */
+.fullscreen_height {
+    height: 100vh;
+}
+
+/* --------------------------- NavBar --------------------------- */
+#navbarNav {
+    justify-content: flex-end;
+}
+
+/* --------------------------- Home Page --------------------------- */
+#hero {
+    background: url(../images/hero_home_page.jpg) no-repeat center center/cover;
+}
+
+#home_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------------------- Secondary Page --------------------------- */
+#secondary {
+    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
+}
+
+#explore_cy_page {
+    background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
+}
+
+/* --------------------------- Explore_cy Page --------------------------- */
+#explore_title {
+    font-size: 60px;
+}
+#description_cy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 20px;
+    margin: 10px 20px;
+}
+
+/* --------------------------- Footer --------------------------- */
+iframe {
+    margin-top: 20px;
+}
+
+/* --------------------------- Media queries --------------------------- */
+@media (max-width: 992px) {
+    iframe {
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    iframe {
+        width: 300px;
+    }
+}
