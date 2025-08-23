@@ -1,0 +1,32 @@
+# Greek translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-23 16:49+0300\n"
+"PO-Revision-Date: 2025-08-23 16:52+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: el\n"
+"Language-Team: el <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:8
+msgid "Learn. Dive. Explore"
+msgstr "Μάθε. Βούτηξε. Εξερεύνησε."
+
+#: templates/index.html:10
+msgid "From First Breaths to Epic Dives – Explore the Sea with Net Divers!"
+msgstr "Απο τις πρώτες ανάσες σε επικές βουτιές - Εξερεύνησε τη θάλασσα με τους Net Divers!"
+
+#: templates/index.html:12
+msgid "START DIVING"
+msgstr "ΞΕΚΙΝΗΣΤΕ ΤΙΣ ΚΑΤΑΔΥΣΕΙΣ"
+
