@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-23 16:49+0300\n"
+"POT-Creation-Date: 2025-08-24 19:49+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,30 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+
+#: templates/base.html:28
+msgid "About Us"
+msgstr ""
+
+#: templates/base.html:31
+msgid "Contact Us"
+msgstr ""
+
+#: templates/base.html:59
+msgid "Contact Us:"
+msgstr ""
+
+#: templates/base.html:61
+msgid "Mr Christos A. Neophytou"
+msgstr ""
+
+#: templates/base.html:68
+msgid "YDRAS 16, ANTHOUPOLI,"
+msgstr ""
+
+#: templates/base.html:68
+msgid "2302, NICOSIA, CYPRYS"
+msgstr ""
 
 #: templates/index.html:8
 msgid "Learn. Dive. Explore"
@@ -27,5 +51,17 @@ msgstr ""
 
 #: templates/index.html:12
 msgid "START DIVING"
+msgstr ""
+
+#: templates/secondary.html:8
+msgid "Discover the depths with confidence"
+msgstr ""
+
+#: templates/secondary.html:9
+msgid "OUR COURSES AND SERVICES"
+msgstr ""
+
+#: templates/secondary.html:10
+msgid "EXPLORE CYPRUS"
 msgstr ""
 
