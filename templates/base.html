@@ -37,8 +37,8 @@
                                     Language
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="?lang=en">English</a></li>
-                                    <li><a class="dropdown-item" href="?lang=el">Ελληνικά</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">English</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='el') }}">Ελληνικά</a></li>
                                 </ul>
                             </li>
                         </ul>

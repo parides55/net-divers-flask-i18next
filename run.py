@@ -1,20 +1,37 @@
 import os
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, session, redirect, url_for
 from flask_babel import Babel, _
+if os.path.exists("env.py"):
+    import env
 
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'   # default language
 app.config['BABEL_SUPPORTED_LOCALES'] = ['en', 'el']  # add your languages
 
 
-# Define locale selector function
+# Locale selector function
 def get_locale():
-    return request.args.get('lang') or request.accept_languages.best_match(app.config['BABEL_SUPPORTED_LOCALES'])
+    # First check session
+    if 'lang' in session:
+        return session['lang']
+    # Fallback to browser preference
+    return request.accept_languages.best_match(app.config['BABEL_SUPPORTED_LOCALES'])
+
 
 # Pass it into Babel
 babel = Babel(app, locale_selector=get_locale)
+
+
+# Route to change language
+@app.route('/set_language/<lang_code>')
+def set_language(lang_code):
+    if lang_code in app.config['BABEL_SUPPORTED_LOCALES']:
+        session['lang'] = lang_code
+    return redirect(request.referrer or url_for('index'))
+
 
 @app.route('/')
 def index():
