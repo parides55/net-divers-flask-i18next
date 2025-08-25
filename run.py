@@ -42,6 +42,22 @@ def index():
 def secondary():
     return render_template("secondary.html")
 
+
+@app.route('/explore_cy')
+def explore_cy():
+    return render_template("explore_cy.html")
+    
+
+@app.route('/diving_sites')
+def diving_sites():
+    return render_template("diving_sites.html")
+
+
+@app.route('/courses_and_services')
+def courses_and_services():
+    return render_template("courses_and_services.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
