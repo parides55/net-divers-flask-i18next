@@ -3,11 +3,15 @@
 {% block content %}
     <section id="secondary" class="text-center">
         <div id="home_page" class="container-fluid fullscreen_height">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-light">{{ _('Discover the depths with confidence') }}</h1>
-                    <a class="btn btn-outline-dark" href="{{ url_for('courses_and_services') }}">{{ _('OUR COURSES AND SERVICES') }}</a>
-                    <a class="btn btn-outline-dark" href="{{ url_for('explore_cy') }}">{{ _('EXPLORE CYPRUS') }}</a>
+            <div class="row h-50">
+                <div class="col d-flex flex-column justify-content-evenly">
+                    <div>
+                        <h1 class="text-light">{{ _('Discover the depths with confidence') }}</h1>
+                    </div>
+                    <div class="h-50 d-flex flex-column justify-content-evenly align-items-center">
+                        <a class="btn btn-outline-dark" href="{{ url_for('courses_and_services') }}">{{ _('OUR COURSES AND SERVICES') }}</a>
+                        <a class="btn btn-outline-dark" href="{{ url_for('explore_cy') }}">{{ _('EXPLORE CYPRUS') }}</a>
+                    </div>
                 </div>
             </div>
         </div>
