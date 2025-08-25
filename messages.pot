@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-24 19:49+0300\n"
+"POT-Creation-Date: 2025-08-25 16:37+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,65 @@ msgstr ""
 
 #: templates/base.html:68
 msgid "2302, NICOSIA, CYPRYS"
+msgstr ""
+
+#: templates/courses_and_services.html:7
+msgid "Our courses"
+msgstr ""
+
+#: templates/courses_and_services.html:11
+msgid ""
+"We offer a wide range of scuba diving courses tailored to all experience "
+"levels—from \n"
+"            beginner programs that teach the fundamentals of diving, to "
+"advanced courses that \n"
+"            refine your skills and deepen your underwater knowledge. For "
+"those looking to expand \n"
+"            their expertise, we provide specialty dives including night "
+"diving, shipwreck \n"
+"            exploration, and sea cave adventures. Our certified "
+"instructors also offer essential \n"
+"            first aid and emergency response training, ensuring safety "
+"and confidence both above \n"
+"            and below the surface. Whether you're taking your first "
+"breath underwater or seeking \n"
+"            your next diving challenge, we have the course for you."
+msgstr ""
+
+#: templates/explore_cy.html:9
+msgid "Explore"
+msgstr ""
+
+#: templates/explore_cy.html:9
+msgid "Cyprus"
+msgstr ""
+
+#: templates/explore_cy.html:9
+msgid "Underwater"
+msgstr ""
+
+#: templates/explore_cy.html:13
+msgid ""
+"Cyprus is a scuba diver’s paradise,\n"
+"                    offering crystal-clear waters, diverse\n"
+"                    marine life, and some of the best diving\n"
+"                    conditions in the Mediterranean. With\n"
+"                    its warm climate and impressive\n"
+"                    underwater visibility, the island is ideal\n"
+"                    for both beginners and advanced\n"
+"                    divers. From vibrant reefs and\n"
+"                    fascinating sea caves to historic\n"
+"                    shipwrecks like the world-famous\n"
+"                    Zenobia, Cyprus provides unforgettable\n"
+"                    diving experiences year-round.\n"
+"                    Whether you're seeking adventure,\n"
+"                    exploration, or tranquility beneath the\n"
+"                    waves, Cyprus is the perfect\n"
+"                    destination to dive in and discover."
+msgstr ""
+
+#: templates/explore_cy.html:31
+msgid "Diving Sites"
 msgstr ""
 
 #: templates/index.html:8
