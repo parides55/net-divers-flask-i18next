@@ -133,7 +133,7 @@ msgid "Diving Sites"
 msgstr "Καταδυτικά σημεία"
 
 #: templates/index.html:8
-msgid "Learn. Dive. Explore"
+msgid "Learn. Dive. Explore."
 msgstr "Μάθε. Βούτηξε. Εξερεύνησε."
 
 #: templates/index.html:10
