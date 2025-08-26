@@ -58,6 +58,11 @@ def courses_and_services():
     return render_template("courses_and_services.html")
 
 
+@app.route('/about_us')
+def about_us():
+    return render_template("about_us.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
