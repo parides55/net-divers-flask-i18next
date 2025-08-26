@@ -3,7 +3,7 @@
 {% block content %}
 
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid px-5 mb-5">
         <div class="row">
             <div class="col text-center m-5">
                 <h1>Net Divers</h1>
@@ -11,7 +11,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>
+                <p class="about_us_paragraphs">
                     {{ _("Founded in 1994, our diving school in Cyprus has been introducing people 
                     to the wonders of the sea for nearly four decades. As a proud NAUI (National 
                     Association of Underwater Instructors) school, we follow the internationally 
@@ -23,8 +23,8 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row image-rows">
+            <div class="col d-flex flex-row justify-content-evenly align-items-center">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>
+                <p class="about_us_paragraphs">
                     {{ _("Our team of four highly trained NAUI instructors brings not only expertise 
                     but also a deep passion for the sea. We organize weekly diving trips across Cyprus, 
                     exploring shipwrecks, reefs, and hidden caves, while making sure every diver feels 
@@ -42,7 +42,7 @@
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row image-rows">
             <div class="col">
                 <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-7.jpg') }}" alt="Gallery image">
                 <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-9.jpg') }}" alt="Gallery image">
@@ -52,7 +52,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>
+                <p class="about_us_paragraphs">
                     {{ _("At the heart of our school is a simple belief: diving should be safe, 
                     enjoyable, and enriching. Guided by NAUI’s trusted standards and our own love 
                     for the sea, we are here to help you take your first breath underwater, refine 
