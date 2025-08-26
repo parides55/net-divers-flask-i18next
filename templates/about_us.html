@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center m-5">
+                <h1>Net Divers</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    {{ _("Founded in 1985, our diving school in Cyprus has been introducing people 
+                    to the wonders of the sea for nearly four decades. As a proud NAUI (National 
+                    Association of Underwater Instructors) school, we follow the internationally 
+                    recognized NAUI standards and manuals, ensuring the highest levels of safety, 
+                    professionalism, and quality in every course we teach. From beginner dives to 
+                    advanced certifications, as well as first aid training and marine awareness seminars, 
+                    we’ve had the privilege of training thousands of divers who now share our love 
+                    for the underwater world.")}}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
+                <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
+                <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    {{ _("Our team of four highly trained NAUI instructors brings not only expertise 
+                    but also a deep passion for the sea. We organize weekly diving trips across Cyprus, 
+                    exploring shipwrecks, reefs, and hidden caves, while making sure every diver feels 
+                    safe, supported, and inspired. More than just training, our goal is to create 
+                    memorable experiences and lasting connections with the ocean—always with great care 
+                    for marine life and the environment.")}}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-7.jpg') }}" alt="Gallery image">
+                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-9.jpg') }}" alt="Gallery image">
+                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-13.jpg') }}" alt="Gallery image">
+                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Gallery image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>
+                    {{ _("At the heart of our school is a simple belief: diving should be safe, 
+                    enjoyable, and enriching. Guided by NAUI’s trusted standards and our own love 
+                    for the sea, we are here to help you take your first breath underwater, refine 
+                    your skills, or embark on thrilling new adventures—all while protecting the 
+                    incredible marine world that makes diving so extraordinary.")}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+{% endblock %}
