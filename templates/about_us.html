@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="row image-rows">
-            <div class="col d-flex flex-row justify-content-evenly align-items-center">
+            <div class="col overflow-auto d-flex flex-row justify-content-evenly align-items-center">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
                 <img class="instructor-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Instructor's image">
@@ -44,10 +44,22 @@
         </div>
         <div class="row image-rows">
             <div class="col">
-                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-7.jpg') }}" alt="Gallery image">
-                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-9.jpg') }}" alt="Gallery image">
-                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-13.jpg') }}" alt="Gallery image">
-                <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Gallery image">
+                <div class="row">
+                    <div class="col text-end p-0">
+                        <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-7.jpg') }}" alt="Gallery image">
+                    </div>
+                    <div class="col p-0">
+                        <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-9.jpg') }}" alt="Gallery image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-end p-0">
+                        <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-13.jpg') }}" alt="Gallery image">
+                    </div>
+                    <div class="col p-0">
+                        <img class="gallery-img" src="{{ url_for('static', filename='images/netdivers-services-6.jpg') }}" alt="Gallery image">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
