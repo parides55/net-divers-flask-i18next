@@ -1,4 +1,5 @@
 import os
+import json
 from flask import Flask, render_template, request, session, redirect, url_for
 from flask_babel import Babel, _
 if os.path.exists("env.py"):
@@ -55,7 +56,10 @@ def diving_sites():
 
 @app.route('/courses_and_services')
 def courses_and_services():
-    return render_template("courses_and_services.html")
+    data = []
+    with open('data/courses_services.json', 'r') as json_data:
+        data = json.load(json_data)
+    return render_template("courses_and_services.html", courses=data)
 
 
 @app.route('/about_us')
