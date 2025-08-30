@@ -1,67 +1,119 @@
 [
   {
-    "title": "",
-    "category" : "",
-    "license_required" : "",
-    "description" : "",
-    "min_age" : "",
-    "min_hours" : "",
-    "min_dives" : "",
-    "max_depth" : "",
-    "certification" : "",
-    "popular" : ""
+    "title": "Skin Diver",
+    "category" : "Apnea",
+    "license_required" : "No",
+    "description" : "This Apnea certification course is a snorkeling and breath-holding diving course. Upon completion, graduates are considered competent to engage in open water breath-holding diving activities without supervision. It is designed to: develop skin diving skills for swimmers and scuba divers, afford non-scuba divers the opportunity for diving related training and to provide preparatory training for scuba diving.",
+    "min_age" : "12 years old",
+    "min_hours" : "Four hours including at least three water hours.",
+    "min_dives" : "The minimum number of open water dives is two.",
+    "max_depth" : " 10m (33 ft.)",
+    "certification" : "No certification required",
+    "popular" : "no"
   },
   
   {
-    "title": "",
-    "category" : "",
-    "license_required" : "",
-    "description" : "",
-    "min_age" : "",
-    "min_hours" : "",
-    "min_dives" : "",
-    "max_depth" : "",
-    "certification" : "",
-    "popular" : ""
+    "title": "Advanced Open Water Scuba Diver",
+    "category" : "Continuing Education",
+    "license_required" : "Yes",
+    "description" : "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age" : "15 years by the water phase of the course",
+    "min_hours" : "6 hours",
+    "min_dives" : "The minimum number of open water dives is six",
+    "max_depth" : "40m (130 ft.)",
+    "certification" : " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "popular" : "yes"
   },
   
   {
-    "title": "",
-    "category": "",
-    "license_required": "",
-    "description": "",
-    "min_age": "",
-    "min_hours": "",
+    "title": "Drysuit Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course provides the use of dry suits and how to become familiar and comfortable with their thermal protection options, controls, and buoyancy characteristics. Graduates are considered competent to engage in open water diving activities, while using a drysuit, without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": "15 years by the water phase of the course.",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is four.",
+    "max_depth": "40m (130 ft.)",
+    "certification": "Current enrollment in a NAUI Instructor conducted course or certification as a NAUI Open Water Scuba Diver or the equivalent is required.",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Master Scuba Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "•	This continuing education course is for certified divers who wish to increase their understanding and enjoyment of diving. The course is a progression toward NAUI Leadership roles, and some subject areas are a review and expansion of materials from previous courses. Instructors will specify performance objectives for related courses diving activities and each subject area is a progression in study.",
+    "min_age": " 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is four",
+    "max_depth": " 40m (130 ft.)",
+    "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Nitrox Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course is for students enrolled in a NAUI open water course or certified as an open water scuba diver. The course may be taught as a stand-alone specialty course to certified divers or the knowledge and skills training may be integrated into other NAUI certification courses including the NAUI Open Water Scuba Diver course. This course provides divers with the skills to utilize EANx as a breathing medium",
+    "min_age": " 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "Two open water dives are encouraged but not required",
+    "max_depth": " 40m (130 ft.)",
+    "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Refresher Scuba",
+    "category": "Continuing Education",
+    "license_required": "no",
+    "description": "This continuing education course is a non-certification course which offers supervised refresher experience at the Scuba Diver level for divers who need to re-establish proficiency owing to diving inactivity in light of intended dive trips or other factors. Divers who have completed the Refresher Scuba course may use the documentation to assist dive guides, Divemasters, resort owners, and others in evaluating the diver’s training level and readiness to participate in specific diving activities.",
+    "min_age": " Minimum is 10 years by the water phase of the course",
+    "min_hours": "1 hour",
     "min_dives": "",
-    "max_depth": "",
-    "certification": "",
-    "popular" : ""
+    "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
+    "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
+    "popular" : "yes"
   },
   
   {
-    "title": "",
-    "category": "",
-    "license_required": "",
-    "description": "",
-    "min_age": "",
-    "min_hours": "",
-    "min_dives": "",
-    "max_depth": "",
-    "certification": "",
-    "popular" : ""
+    "title": "Rescue Scuba Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course trains divers in the knowledge and skills needed to manage risks and effectively handle limited in-water problems and diving emergencies. The course will include the following: assists, transports, surface rescues and rescues from depth involving both boat- and shore-based skin and scuba divers. The course meets the prerequisite rescue training for NAUI Skin Diving Instructor, NAUI Assistant Instructor, NAUI Divemaster and NAUI Instructor certifications.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "4 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": " 18m (60 ft).",
+    "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "popular" : "yes"
   },
   
   {
-    "title": "",
-    "category": "",
-    "license_required": "",
-    "description": "",
-    "min_age": "",
-    "min_hours": "",
-    "min_dives": "",
-    "max_depth": "",
-    "certification": "",
-    "popular" : ""
+    "title": "Experienced Scuba Diver",
+    "category": "Entry-Level",
+    "license_required": "yes",
+    "description": "This entry level course is for experienced scuba divers with no recognized recreational diving certificate. These divers may have military, commercial, or scientific diving training or may not have any formal training. Upon successful completion, divers will receive a NAUI Open Water Scuba Diver certification with all designated qualifications.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "1 hour",
+    "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
+    "max_depth": " 18m (60 ft.)",
+    "certification": "No certification required to enter this cours",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Open Water Scuba Diver",
+    "category": "Entry-Level",
+    "license_required": "yes",
+    "description": "This entry-level course meets the requirements for ISO Level 2- autonomous diver certification. It will teach divers the fundamental knowledge and skills to scuba dive and engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and the equipment approximate those of training.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "17 hours including at least 10 water hours.",
+    "min_dives": "The minimum number of open water dives is four.",
+    "max_depth": "18m (60 ft.)",
+    "certification": " There is no certification required to enter this cours",
+    "popular" : "yes"
   },
   
   {
