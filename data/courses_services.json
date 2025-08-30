@@ -1,45 +1,79 @@
 [
   {
-    "title": "Adaptive Scuba Diver",
-    "Category": "Entry-Level",
-    "Teaching Time": "17 hours including at least 10 water hours.",
-    "Dives": "The minimum number of open water dives is four.",
-    "Description": "This NAUI program provides diving credentials to persons with disabilities whose disability prevents them from completing all requirements for certification in a NAUI Open Water Scuba Diver Standard. Graduates are considered competent to engage in open-water diving activities with allowances for their specific accommodations. NAUI seeks to offer diving to a diverse audience and offers accommodations in line with the Americans with Disabilities Act (ADA). The ADA requires that reasonable accommodations must be made for disabled students seeking diver training or supervision. Within the ability and comfort of their NAUI diving instructor.",
-    "License Required": "Yes",
-    "Max_depth" : "18m (60 ft.)",
-    "image" : "static/images/netdivers-services-13.jpg"
+    "title": "",
+    "category" : "",
+    "license_required" : "",
+    "description" : "",
+    "min_age" : "",
+    "min_hours" : "",
+    "min_dives" : "",
+    "max_depth" : "",
+    "certification" : "",
+    "popular" : ""
   },
-
+  
   {
-    "title": "Advanced Open Water Scuba Diver",
-    "Category": "Continuing Education",
-    "Teaching Time": "Six hours.",
-    "Dives": "The minimum number of open water dives is six.",
-    "Description": "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
-    "License Required": "Yes",
-    "Max_depth" : "40m (130 ft.)",
-    "image" : "static/images/netdivers-services-6.jpg"
+    "title": "",
+    "category" : "",
+    "license_required" : "",
+    "description" : "",
+    "min_age" : "",
+    "min_hours" : "",
+    "min_dives" : "",
+    "max_depth" : "",
+    "certification" : "",
+    "popular" : ""
   },
-
+  
   {
-    "title": "Deep Diver",
-    "Category": "Specialty",
-    "Teaching Time": "Two hours.",
-    "Dives": "The minimum number of open water dives is two.",
-    "Description": "This specialty course provides the diver with the knowledge and skills to plan and conduct dives while minimizing risks. Deep dives are between 18 and 40 m ( 60 and 130 ft.) and do not require any decompression stops. Graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
-    "License Required": "Yes",
-    "Max_depth" : "40m (130 ft.)",
-    "image" : "static/images/netdivers-services-7.jpg"
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "popular" : ""
   },
-
+  
   {
-    "title": "Diving First Aid",
-    "Category": "First Aid",
-    "Teaching Time": "Six hours.",
-    "Dives": "The minimum number of open water dives is six.",
-    "Description": "Divers have unique responsibilities and a duty to respond to unique situations; their first aid training should not be any less unique. This is a NAUI course powered by DAN (Divers Alert Network) the Diving First Aid course is designed for all divers and meets the needs of commercial, professional, aquarium, and scientific divers, and it provides knowledge and first aid skills specifically for these work environments.",
-    "License Required": "Yes",
-    "Max_depth" : "-",
-    "image" : "static/images/netdivers-services-9.jpg"
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "popular" : ""
+  },
+  
+  {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "popular" : ""
+  },
+  
+  {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "popular" : ""
   }
 ]
