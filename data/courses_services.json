@@ -9,6 +9,7 @@
     "min_dives" : "The minimum number of open water dives is two.",
     "max_depth" : " 10m (33 ft.)",
     "certification" : "No certification required",
+    "image" : "",
     "popular" : "no"
   },
   
@@ -22,6 +23,7 @@
     "min_dives" : "The minimum number of open water dives is six",
     "max_depth" : "40m (130 ft.)",
     "certification" : " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
     "popular" : "yes"
   },
   
@@ -35,6 +37,7 @@
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "40m (130 ft.)",
     "certification": "Current enrollment in a NAUI Instructor conducted course or certification as a NAUI Open Water Scuba Diver or the equivalent is required.",
+    "image" : "",
     "popular" : "no"
   },
   
@@ -48,6 +51,7 @@
     "min_dives": "The minimum number of open water dives is four",
     "max_depth": " 40m (130 ft.)",
     "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
     "popular" : "yes"
   },
   
@@ -61,6 +65,7 @@
     "min_dives": "Two open water dives are encouraged but not required",
     "max_depth": " 40m (130 ft.)",
     "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
     "popular" : "no"
   },
   
@@ -74,6 +79,7 @@
     "min_dives": "",
     "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
+    "image" : "",
     "popular" : "yes"
   },
   
@@ -87,6 +93,7 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": " 18m (60 ft).",
     "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
     "popular" : "yes"
   },
   
@@ -100,6 +107,7 @@
     "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
     "max_depth": " 18m (60 ft.)",
     "certification": "No certification required to enter this cours",
+    "image" : "",
     "popular" : "no"
   },
   
@@ -113,7 +121,302 @@
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "18m (60 ft.)",
     "certification": " There is no certification required to enter this cours",
+    "image" : "",
     "popular" : "yes"
+  },
+  
+  {
+    "title": "Recreational Hookah Diver",
+    "category": "Entry-Level",
+    "license_required": "No",
+    "description": "This entry-level certification course trains students how to use the hookah diving system. Graduates are considered competent to use the hookah diving system(s) used in training and engage in open water hookah diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training. This course does not qualify graduates as scuba divers. This course does not qualify graduates as scuba divers.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "17 hours including at least 10 water hours",
+    "min_dives": "The minimum number of open water dives is four",
+    "max_depth": " 18m (60 ft.)",
+    "certification": " There is no certification required to enter this course",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Supplied Air Snorkeling",
+    "category": "Entry-Level",
+    "license_required": "no",
+    "description": "Explore from the surface with the use of positive flotation, surface only breathing-air devices, such as Supplied Air Snorkeling for Youth (SASY) or Scuba Air Snorkeling equipment. Students will become familiar with the manufacturers’ recommendations regarding the operation and use of the selected equipment while maintaining positive buoyancy on the surface throughout the dive experience.",
+    "min_age": "No minimum age",
+    "min_hours": "No minimum",
+    "min_dives": "The minimum number of water sessions is one.",
+    "max_depth": "Not Applicable",
+    "certification": " There is no certification required to enter this course",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Basic Life Support: CPR and First Aid",
+    "category": "First Aid",
+    "license_required": "Yes",
+    "description": "This is a NAUI course powered by DAN (Divers Alert Network). This fundamental course prepares you to provide proper care for life-threatening illnesses or injuries until professional emergency medical care is available. The life-support skills taught in this course include one- and two-rescuer CPR for adults, children and infants. Use of automatic external defibrillators, bleeding management, assisting a choking victims and responding to a person in shock. The first aid skills taught include conducting secondary assessments, splinting and responding to medical emergencies.",
+    "min_age": " There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Diving First Aid",
+    "category": "First Aid",
+    "license_required": "Yes",
+    "description": "Divers have unique responsibilities and a duty to respond to unique situations; their first aid training should not be any less unique. This is a NAUI course powered by DAN (Divers Alert Network) the Diving First Aid course is designed for all divers and meets the needs of commercial, professional, aquarium, and scientific divers, and it provides knowledge and first aid skills specifically for these work environments. /nDFA includes all elements of the DAN BLS and EO2 courses and includes material on neurological assessment and first aid for hazardous marine life injuries. In the DFA course, you will learn how to properly manage injuries with neurological implications. You will learn to recognize these injuries and properly perform a neurological assessment. You’ll also learn what information to collect and relay to emergency medical services. Recognizing symptoms and responding quickly can shorten recovery times and improve long-term outcomes. In the hazardous marine life injuries segment, you will gain the knowledge you need to identify specific types of marine life injuries and the first aid skills to treat them. /nDFA is the most comprehensive first aid course in the dive industry.  While geared toward dive instructors and divemasters, anyone, even nondivers, will learn an indispensable set of first aid and risk-mitigation skills.",
+    "min_age": "There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Emergency Oxygen for Scuba Diving Injuries",
+    "category": "First Aid",
+    "license_required": "yes",
+    "description": "This is a NAUI course powered by DAN (Divers Alert Network).  Administering emergency oxygen is the preferred first aid for scuba diving injuries, and early administration can drastically improve the outcome for an injured diver. The DAN Emergency Oxygen for Scuba Diving Injuries course teaches you how to administer life-saving oxygen first aid to divers who may be suffering from decompression illness (DCI). Additionally, this course will teach you how to recognize the signs and symptoms of decompression illness and respond to them accordingly. The emergency response skills taught in this course are not unique to scuba diving; they’re applicable to many other watersports and other activities.",
+    "min_age": "There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Skin Diver",
+    "category" : "Apnea",
+    "license_required" : "No",
+    "description" : "This Apnea certification course is a snorkeling and breath-holding diving course. Upon completion, graduates are considered competent to engage in open water breath-holding diving activities without supervision. It is designed to: develop skin diving skills for swimmers and scuba divers, afford non-scuba divers the opportunity for diving related training and to provide preparatory training for scuba diving.",
+    "min_age" : "12 years old",
+    "min_hours" : "Four hours including at least three water hours.",
+    "min_dives" : "The minimum number of open water dives is two.",
+    "max_depth" : " 10m (33 ft.)",
+    "certification" : "No certification required",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Advanced Open Water Scuba Diver",
+    "category" : "Continuing Education",
+    "license_required" : "Yes",
+    "description" : "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age" : "15 years by the water phase of the course",
+    "min_hours" : "6 hours",
+    "min_dives" : "The minimum number of open water dives is six",
+    "max_depth" : "40m (130 ft.)",
+    "certification" : " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Drysuit Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course provides the use of dry suits and how to become familiar and comfortable with their thermal protection options, controls, and buoyancy characteristics. Graduates are considered competent to engage in open water diving activities, while using a drysuit, without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": "15 years by the water phase of the course.",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is four.",
+    "max_depth": "40m (130 ft.)",
+    "certification": "Current enrollment in a NAUI Instructor conducted course or certification as a NAUI Open Water Scuba Diver or the equivalent is required.",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Master Scuba Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course is for certified divers who wish to increase their understanding and enjoyment of diving. The course is a progression toward NAUI Leadership roles, and some subject areas are a review and expansion of materials from previous courses. Instructors will specify performance objectives for related courses diving activities and each subject area is a progression in study.",
+    "min_age": " 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is four",
+    "max_depth": " 40m (130 ft.)",
+    "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Nitrox Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course is for students enrolled in a NAUI open water course or certified as an open water scuba diver. The course may be taught as a stand-alone specialty course to certified divers or the knowledge and skills training may be integrated into other NAUI certification courses including the NAUI Open Water Scuba Diver course. This course provides divers with the skills to utilize EANx as a breathing medium",
+    "min_age": " 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "Two open water dives are encouraged but not required",
+    "max_depth": " 40m (130 ft.)",
+    "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Refresher Scuba",
+    "category": "Continuing Education",
+    "license_required": "no",
+    "description": "This continuing education course is a non-certification course which offers supervised refresher experience at the Scuba Diver level for divers who need to re-establish proficiency owing to diving inactivity in light of intended dive trips or other factors. Divers who have completed the Refresher Scuba course may use the documentation to assist dive guides, Divemasters, resort owners, and others in evaluating the diver’s training level and readiness to participate in specific diving activities.",
+    "min_age": " Minimum is 10 years by the water phase of the course",
+    "min_hours": "1 hour",
+    "min_dives": "",
+    "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
+    "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Rescue Scuba Diver",
+    "category": "Continuing Education",
+    "license_required": "yes",
+    "description": "This continuing education course trains divers in the knowledge and skills needed to manage risks and effectively handle limited in-water problems and diving emergencies. The course will include the following: assists, transports, surface rescues and rescues from depth involving both boat- and shore-based skin and scuba divers. The course meets the prerequisite rescue training for NAUI Skin Diving Instructor, NAUI Assistant Instructor, NAUI Divemaster and NAUI Instructor certifications.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "4 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": " 18m (60 ft).",
+    "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Experienced Scuba Diver",
+    "category": "Entry-Level",
+    "license_required": "yes",
+    "description": "This entry level course is for experienced scuba divers with no recognized recreational diving certificate. These divers may have military, commercial, or scientific diving training or may not have any formal training. Upon successful completion, divers will receive a NAUI Open Water Scuba Diver certification with all designated qualifications.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "1 hour",
+    "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
+    "max_depth": " 18m (60 ft.)",
+    "certification": "No certification required to enter this cours",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Open Water Scuba Diver",
+    "category": "Entry-Level",
+    "license_required": "yes",
+    "description": "This entry-level course meets the requirements for ISO Level 2- autonomous diver certification. It will teach divers the fundamental knowledge and skills to scuba dive and engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and the equipment approximate those of training.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "17 hours including at least 10 water hours.",
+    "min_dives": "The minimum number of open water dives is four.",
+    "max_depth": "18m (60 ft.)",
+    "certification": " There is no certification required to enter this cours",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Recreational Hookah Diver",
+    "category": "Entry-Level",
+    "license_required": "No",
+    "description": "This entry-level certification course trains students how to use the hookah diving system. Graduates are considered competent to use the hookah diving system(s) used in training and engage in open water hookah diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training. This course does not qualify graduates as scuba divers. This course does not qualify graduates as scuba divers.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "17 hours including at least 10 water hours",
+    "min_dives": "The minimum number of open water dives is four",
+    "max_depth": " 18m (60 ft.)",
+    "certification": " There is no certification required to enter this course",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Supplied Air Snorkeling",
+    "category": "Entry-Level",
+    "license_required": "no",
+    "description": "Explore from the surface with the use of positive flotation, surface only breathing-air devices, such as Supplied Air Snorkeling for Youth (SASY) or Scuba Air Snorkeling equipment. Students will become familiar with the manufacturers’ recommendations regarding the operation and use of the selected equipment while maintaining positive buoyancy on the surface throughout the dive experience.",
+    "min_age": "No minimum age",
+    "min_hours": "No minimum",
+    "min_dives": "The minimum number of water sessions is one.",
+    "max_depth": "Not Applicable",
+    "certification": " There is no certification required to enter this course",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Basic Life Support: CPR and First Aid",
+    "category": "First Aid",
+    "license_required": "Yes",
+    "description": "This is a NAUI course powered by DAN (Divers Alert Network). This fundamental course prepares you to provide proper care for life-threatening illnesses or injuries until professional emergency medical care is available. The life-support skills taught in this course include one- and two-rescuer CPR for adults, children and infants. Use of automatic external defibrillators, bleeding management, assisting a choking victims and responding to a person in shock. The first aid skills taught include conducting secondary assessments, splinting and responding to medical emergencies.",
+    "min_age": " There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Diving First Aid",
+    "category": "First Aid",
+    "license_required": "Yes",
+    "description": "Divers have unique responsibilities and a duty to respond to unique situations; their first aid training should not be any less unique. This is a NAUI course powered by DAN (Divers Alert Network) the Diving First Aid course is designed for all divers and meets the needs of commercial, professional, aquarium, and scientific divers, and it provides knowledge and first aid skills specifically for these work environments. /nDFA includes all elements of the DAN BLS and EO2 courses and includes material on neurological assessment and first aid for hazardous marine life injuries. In the DFA course, you will learn how to properly manage injuries with neurological implications. You will learn to recognize these injuries and properly perform a neurological assessment. You’ll also learn what information to collect and relay to emergency medical services. Recognizing symptoms and responding quickly can shorten recovery times and improve long-term outcomes. In the hazardous marine life injuries segment, you will gain the knowledge you need to identify specific types of marine life injuries and the first aid skills to treat them. /nDFA is the most comprehensive first aid course in the dive industry.  While geared toward dive instructors and divemasters, anyone, even nondivers, will learn an indispensable set of first aid and risk-mitigation skills.",
+    "min_age": "There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Emergency Oxygen for Scuba Diving Injuries",
+    "category": "First Aid",
+    "license_required": "yes",
+    "description": "This is a NAUI course powered by DAN (Divers Alert Network).  Administering emergency oxygen is the preferred first aid for scuba diving injuries, and early administration can drastically improve the outcome for an injured diver. The DAN Emergency Oxygen for Scuba Diving Injuries course teaches you how to administer life-saving oxygen first aid to divers who may be suffering from decompression illness (DCI). Additionally, this course will teach you how to recognize the signs and symptoms of decompression illness and respond to them accordingly. The emergency response skills taught in this course are not unique to scuba diving; they’re applicable to many other watersports and other activities.",
+    "min_age": "There is no minimum age to participate in this course",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "Diving certification is not required to participate in these courses",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Assistant Instructor",
+    "category": "Leadership",
+    "license_required": "yes",
+    "description": "This program is designed to introduce students to diving instruction basics. It teaches the fundamental water skills needed to be a capable assistant and is a recommended step in the progression to becoming an Instructor. After successfully completing the course, participants earn the privilege of becoming a NAUI member and once in active status, are qualified to assist active status NAUI Instructors with courses, provided the activities and locale approximate those in which the Assistant Instructor is trained.",
+    "min_age": "Minimum age of 18 years prior to enrollment and start of training.",
+    "min_hours": "7 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": " 40m (130 ft.)",
+    "certification": "",
+    "image" : "",
+    "popular" : "no"
+  },
+  
+   {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "",
+    "popular" : ""
   },
   
   {
@@ -126,6 +429,50 @@
     "min_dives": "",
     "max_depth": "",
     "certification": "",
+    "image" : "",
+    "popular" : ""
+  },
+  
+   {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "",
+    "popular" : ""
+  },
+  
+  {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "",
+    "popular" : ""
+  },
+  
+   {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "",
     "popular" : ""
   }
+
 ]
