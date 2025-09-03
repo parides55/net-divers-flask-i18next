@@ -3,6 +3,11 @@
     height: 100vh;
 }
 
+.page-titles {
+    font-size: 5rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
@@ -26,6 +31,20 @@
 
 #explore_cy_page {
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
+}
+/* --------------------------- Courses and Services Page --------------------------- */
+.course-image {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
 }
 
 /* --------------------------- Explore_cy Page --------------------------- */

@@ -2,11 +2,11 @@
 
 {% block content %}
 
-<div class="container-fluid">
-    <div class="row">
-        <h1>{{ _('Our courses') }}</h1>
+<div class="container-fluid p-5">
+    <div class="row text-center">
+        <h1 class="page-titles">{{ _('Our courses') }}</h1>
     </div>
-    <div class="row">
+    <!-- <div class="row">
         <p>
             {{ _("We offer a wide range of scuba diving courses tailored to all experience levels—from 
             beginner programs that teach the fundamentals of diving, to advanced courses that 
@@ -17,6 +17,18 @@
             and below the surface. Whether you're taking your first breath underwater or seeking 
             your next diving challenge, we have the course for you.") }}
         </p>
+    </div> -->
+    <div class="row">
+        {% for course in courses %}
+        <div class="col-lg-6 my-3">
+            <div class="card text-bg-dark">
+                <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
+                <div class="card-img-overlay">
+                    <h2 class="card-title">{{ course.title }}</h2>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
 
