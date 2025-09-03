@@ -6,7 +6,7 @@
     <div class="row text-center">
         <h1 class="page-titles">{{ _('Our courses') }}</h1>
     </div>
-    <!-- <div class="row">
+    <div class="row about_us_paragraphs">
         <p>
             {{ _("We offer a wide range of scuba diving courses tailored to all experience levels—from 
             beginner programs that teach the fundamentals of diving, to advanced courses that 
@@ -17,19 +17,102 @@
             and below the surface. Whether you're taking your first breath underwater or seeking 
             your next diving challenge, we have the course for you.") }}
         </p>
-    </div> -->
+    </div>
     <div class="row">
-        {% for course in courses %}
-        <div class="col-lg-6 my-3">
-            <div class="card text-bg-dark">
-                <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
-                <div class="card-img-overlay">
-                    <h2 class="card-title">{{ course.title }}</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    {{ _("Our most popular courses") }}
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        {% for course in courses %}
+                            {% if course.popular == 'yes' %}
+                                <div class="col-lg-6 my-3">
+                                    <div class="card text-bg-dark">
+                                        <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
+                                        <div class="card-img-overlay">
+                                            <h2 class="card-title">{{ course.title }}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    {{ _("Apnea") }}
+                </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        {% for course in courses %}
+                            {% if course.category == 'Apnea' %}
+                                <div class="col-lg-6 my-3">
+                                    <div class="card text-bg-dark">
+                                        <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
+                                        <div class="card-img-overlay">
+                                            <h2 class="card-title">{{ course.title }}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    {{ _("Entry-Level") }}
+                </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        {% for course in courses %}
+                            {% if course.category == 'Entry-Level' %}
+                                <div class="col-lg-6 my-3">
+                                    <div class="card text-bg-dark">
+                                        <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
+                                        <div class="card-img-overlay">
+                                            <h2 class="card-title">{{ course.title }}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    {{ _("Continuing Education") }}
+                </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        {% for course in courses %}
+                            {% if course.category == 'Continuing Education' %}
+                                <div class="col-lg-6 my-3">
+                                    <div class="card text-bg-dark">
+                                        <img src="{{ course.image }}" class="course-image card-img" alt="Course image">
+                                        <div class="card-img-overlay">
+                                            <h2 class="card-title">{{ course.title }}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
 </div>
-
 {% endblock %}
